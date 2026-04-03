@@ -83,7 +83,7 @@ writer = InfluxDBWriter(
 
 #### Option 2: Use a settings file (recommended)
 
-1. Copy `database/influxdb/settings.py.template` to `database/influxdb/settings.py`
+1. Copy `database/influxdb/settings.py.dist` to `database/influxdb/settings.py`
 2. Edit the file with your values:
 
 ```python
